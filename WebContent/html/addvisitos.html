@@ -1,0 +1,194 @@
+<html>
+<head>
+<script type="text/javascript" src="../js/jquery-1.12.3.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/view.css">
+
+    <script type="text/javascript" src="../js/addvisit.js"></script>
+     <!--<script type="text/javascript" src="../js/viewall.js"></script>-->
+<script>
+
+function myfunctions()
+{
+	var wholediv=document.createElement("DIV");
+	wholediv.setAttribute("class","fulldiv");
+	document.body.appendChild(wholediv);
+	
+	var headerdiv=document.createElement("HEADER");
+	wholediv.appendChild(headerdiv);
+	
+	var heading=document.createElement("H3");
+	heading.setAttribute("id","h3");
+	var headtext=document.createTextNode("Add visitors");
+	heading.appendChild(headtext);
+	headerdiv.appendChild(heading);
+
+	var heading2=document.createElement("H3");
+	heading2.setAttribute("id","h");
+    var anc=document.createElement("a");
+    anc.setAttribute("href","view.html");
+	var headtext1=document.createTextNode("List of Visitors");
+	anc.appendChild(headtext1);
+    heading2.appendChild(anc);
+	headerdiv.appendChild(heading2);
+
+
+	var imgdiv=document.createElement("DIV");
+	imgdiv.setAttribute("class","pictuers");
+   document.body.appendChild(imgdiv);
+	
+
+
+
+     var ldiv1 = document.createElement("div");
+    ldiv1.id = 'sig';
+    var h2 = document.createElement("h1");
+    var h2Value = document.createTextNode("Add visitors");
+    h2.appendChild(h2Value);
+    ldiv1.appendChild(h2);
+    imgdiv.appendChild(ldiv1);
+
+    var ldiv2 = document.createElement("div");
+     ldiv2.id = 'form';
+     imgdiv.appendChild(ldiv2);
+
+     var table=document.createElement("table");
+     ldiv2.appendChild(table);
+
+     var tablerow=document.createElement("tr");
+     table.appendChild(tablerow);
+
+     var tabledata=document.createElement("td");
+        var la1 = document.createElement("label");
+    var la1Value = document.createTextNode(" NAME");
+    la1.appendChild(la1Value);
+    tabledata.appendChild(la1);
+    tablerow.appendChild(tabledata);
+    
+     var tabledata=document.createElement("td");
+    var inp1 = document.createElement("input");
+    inp1.id = 'Name';
+    inp1.className = 'input';
+    inp1.placeholder = 'NAME';
+    tabledata.appendChild(inp1);
+   tablerow.appendChild(tabledata);
+
+    var tablerow=document.createElement("tr");
+     table.appendChild(tablerow);
+
+     var tabledata=document.createElement("td");
+    var la2 = document.createElement("label");
+    var la2Value = document.createTextNode("ADDRESS");
+    la2.appendChild(la2Value);
+    tabledata.appendChild(la2);
+    tablerow.appendChild(tabledata);
+
+var tabledata=document.createElement("td");
+    var inp2 = document.createElement("input");
+    inp2.id = 'Address';
+    inp2.className = 'input';
+    inp2.placeholder = 'Address';
+    inp2.type = 'text';
+    tabledata.appendChild(inp2);
+    tablerow.appendChild(tabledata);
+    
+
+  
+
+
+   var tablerow=document.createElement("tr");
+     table.appendChild(tablerow);
+
+     var tabledata=document.createElement("td");
+    var la3 = document.createElement("label");
+    var la2Value1 = document.createTextNode("MOBILENUMBER");
+    la3.appendChild(la2Value1);
+    tabledata.appendChild(la3);
+    tablerow.appendChild(tabledata);
+
+var tabledata=document.createElement("td");
+    var inp3 = document.createElement("input");
+    inp3.id = 'mobileNumber';
+    inp3.className = 'input';
+    inp3.placeholder = 'mobileNumber';
+    inp3.type = 'text';
+    tabledata.appendChild(inp3);
+    tablerow.appendChild(tabledata);
+    
+
+
+
+
+  var tablerow=document.createElement("tr");
+     table.appendChild(tablerow);
+
+     var tabledata=document.createElement("td");
+    var la4 = document.createElement("label");
+    var la2Value2 = document.createTextNode("EMAILID");
+    la4.appendChild(la2Value2);
+    tabledata.appendChild(la4);
+    tablerow.appendChild(tabledata);
+
+var tabledata=document.createElement("td");
+    var inp3 = document.createElement("input");
+    inp3.id = 'EmailId';
+    inp3.className = 'input';
+    inp3.placeholder = 'EmailId';
+    inp3.type = 'text';
+    tabledata.appendChild(inp3);
+    tablerow.appendChild(tabledata);
+    
+
+
+
+ var tablerow=document.createElement("tr");
+     table.appendChild(tablerow);
+
+     var tabledata=document.createElement("td");
+    var la3 = document.createElement("label");
+    var la2Value1 = document.createTextNode("PURPOSE");
+    la3.appendChild(la2Value1);
+    tabledata.appendChild(la3);
+    tablerow.appendChild(tabledata);
+
+var tabledata=document.createElement("td");
+    var inp3 = document.createElement("input");
+    inp3.id = 'Purpose';
+    inp3.className = 'input';
+    inp3.placeholder = 'Purpose';
+    inp3.type = 'text';
+    tabledata.appendChild(inp3);
+    tablerow.appendChild(tabledata);
+    
+
+
+
+    var ldiv3 = document.createElement("div");
+    var sub = document.createElement("input");
+    ldiv3.id='but';
+    sub.id = 'sign';
+    sub.type = 'reset';
+    sub.value = 'CLEAR';
+    ldiv3.appendChild(sub);
+    imgdiv.appendChild(ldiv3);
+
+
+     var ldiv3 = document.createElement("div");
+    var sub = document.createElement("input");
+    ldiv3.id='butts';
+    sub.id = 'ssr';
+    sub.type = 'submit';
+    sub.value = 'SEND';
+     ldiv3.href = 'view.html';
+    ldiv3.appendChild(sub);
+    imgdiv.appendChild(ldiv3);
+    
+
+}
+	
+	</script>
+	
+	</head>
+	<body onload="myfunctions()">
+
+	</body>
+	</html>

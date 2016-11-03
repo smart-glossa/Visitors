@@ -1,0 +1,54 @@
+<html>
+<head>
+<script src="../js/jquery-1.12.3.js" type="text/javascript"></script>
+<script src="../js/viewall.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="../css/viewtable.css">
+<link rel="stylesheet" type="text/css" href="../css/view1.css">
+
+
+<script>
+
+function visitors()
+{
+	var wholediv=document.createElement("DIV");
+	wholediv.setAttribute("class","fulldiv");
+	document.body.appendChild(wholediv);
+	
+	var headerdiv=document.createElement("HEADER");
+	wholediv.appendChild(headerdiv);
+	
+	var heading=document.createElement("H3");
+	heading.setAttribute("id","h3");
+	var anc=document.createElement("a");
+	anc.setAttribute("href","addvisitos.html");
+	var headtext=document.createTextNode("Add visitors");
+	anc.appendChild(headtext);
+	heading.appendChild(anc);
+	headerdiv.appendChild(heading);
+
+	var heading2=document.createElement("H3");
+	heading2.setAttribute("id","how");
+	var headtext1=document.createTextNode("List of Visitors");
+	heading2.appendChild(headtext1);
+	headerdiv.appendChild(heading2);
+
+
+	var imgdiv=document.createElement("DIV");
+	imgdiv.setAttribute("class","pictuers");
+  wholediv.appendChild(imgdiv);
+
+   
+	  var div3=document.createElement("div");
+	  div3.setAttribute("id","div1");
+imgdiv.appendChild(div3);
+
+
+	}
+</script>
+
+</head>
+<body onload="visitors()">
+
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+
+	.fulldiv
+	{
+		background-color: #3f51b5;
+	}
+	header
+	{
+		background-color: #4e342e;
+		height: 80px;
+		color: white;
+	}
+	#h3
+	{
+		float: left;
+		padding-left: 20px;
+		font-size: 20px;
+	}
+	h1{
+		color:red;
+		text-align: center;
+	}
+
+	#h
+	{
+		float:right;
+		padding-left: 20px;
+		font-size: 20px;
+		
+	}
+	 a{
+		text-decoration: none;
+		color:white;
+	}
+
+	header li
+	{
+		display: inline;
+		float: right;
+		padding-right: 40px;
+		margin-top: 25px;
+	}
+	.pictuers
+	{
+		background-color: white
+		padding-top: 10px;
+		height:620px;
+	}
+	#aa
+	{
+		
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	.input
+{
+	width:320px;
+	height: 40px;
+	border: 0px;
+	background-color: #bdbdbd;
+	outline: none;
+	border-radius: 10px;
+	border-bottom: 5px solid lightgray;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+    padding: 35px;
+    color:white;
+
+}
+td{
+	color:green;
+	font-family: Brush Script MT;
+	font-size: 23px;
+}
+
+#form{
+	padding-left: 420px;
+	}
+	#sign,#ssr{
+	float: right;
+	background-color:#b0bec5;
+	padding: 18px 30px;
+	border-radius:25px;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:17px;
+	
+	text-decoration:none;
+
+}
+
+#sign,#ssr:active {
+	position:relative;
+	top:1px;
+}
+
+#but{
+	padding-top: 25px;
+	padding-right: 500px;
+}
+#butts{
+	padding-right: 450px;
+}
